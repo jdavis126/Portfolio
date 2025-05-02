@@ -2,18 +2,24 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Travel from "./pages/Travel";
-import Navbar from "./components/ui/Navbar"; // optional
+import Interests from "./pages/Interests";
+import Pets from "./pages/Pets";
+
+import Navbar from "./components/ui/Navbar";
 
 function App() {
   return (
-    <Router>
-      <Navbar /> {/* if you have one */}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/travel" element={<Travel />} />
-      </Routes>
-    </Router>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/travel" element={<Travel />} />
+          <Route path="/interests" element={<Interests />} />
+          <Route path="/pets" element={<Pets />} />
+
+        </Routes>
+      </Router>
   );
 }
 
