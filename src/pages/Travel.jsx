@@ -25,19 +25,19 @@ L.Icon.Default.mergeOptions({
 const travelSpots = [
   {
     location: "Glacier National Park, Montana",
-    images: ["/images/glacier4.jpg", "/images/glacier2.jpg", "/images/glacier3.jpg"],
+    images: ["./images/glacier4.jpg", "./images/glacier2.jpg", "./images/glacier3.jpg"],
     description: "A showcase of melting glaciers, alpine meadows, carved valleys, and spectacular lakes.",
     position: [48.6968, -113.7183],
   },
   {
     location: "Zion National Park, Utah",
-    images: ["/images/zion1.jpg", "/images/zion2.jpg"],
+    images: ["./images/zion1.jpg", "./images/zion2.jpg"],
     description: "Gaze up at massive sandstone cliffs of cream, pink, and red that soar into a brilliant blue sky.",
     position: [37.2982, -113.0263],
   },
   {
     location: "Big Bend National Park, Texas",
-    images: ["/images/bigbend1.jpg", "/images/bigbend2.jpg", "/images/bigbend3.jpg"],
+    images: ["./images/bigbend1.jpg", "./images/bigbend2.jpg", "./images/bigbend3.jpg"],
     description: "A place in Far West Texas where night skies are dark as coal and rivers carve temple-like canyons in ancient limestone.",
     position: [29.2656, -103.2500],
   },

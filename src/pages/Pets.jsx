@@ -5,15 +5,15 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
 const lizzyImages = [
-  { src: "/images/golden1.jpg", alt: "Lizzy at the park" },
-  { src: "/images/golden2.jpg", alt: "Lizzy playing fetch" },
-  { src: "/images/golden3.jpg", alt: "Lizzy napping" },
+  { src: "./images/lizzy1.jpg", alt: "Lizzy at the park" },
+  { src: "./images/lizzy2.jpg", alt: "Lizzy playing fetch" },
+  { src: "./images/lizzy3.jpg", alt: "Lizzy napping" },
 ];
 
 const maggieImages = [
-  { src: "/images/maggie1.jpg", alt: "Maggie at the beach" },
-  { src: "/images/maggie2.jpg", alt: "Maggie in the snow" },
-  { src: "/images/maggie3.jpg", alt: "Maggie being goofy" },
+  { src: "./images/maggie1.jpg", alt: "Maggie at the beach" },
+  { src: "./images/maggie2.jpg", alt: "Maggie in the snow" },
+  { src: "./images/maggie3.jpg", alt: "Maggie being goofy" },
 ];
 
 export default function Pets() {
@@ -32,13 +32,13 @@ export default function Pets() {
       if (lizzySlider.current) {
         lizzySlider.current.next();
       }
-    }, 15000);
+    }, 10000);
 
     const maggieInterval = setInterval(() => {
       if (maggieSlider.current) {
         maggieSlider.current.next();
       }
-    }, 15000);
+    }, 10000);
 
     return () => {
       clearInterval(lizzyInterval);
@@ -86,8 +86,6 @@ export default function Pets() {
         </div>
       </div>
 
-      <Separator className="my-12" />
-      <p className="text-center text-gray-500 text-sm">More pup adventures coming soon!</p>
     </div>
   );
 }

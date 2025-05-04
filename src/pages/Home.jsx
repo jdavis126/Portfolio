@@ -5,7 +5,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col items-center justify-center px-4 text-center bg-white dark:bg-gray-950">
       {/* Profile or Banner Image */}
       <img
-        src="/images/Jaden.jpg" // make sure this file exists in your public/images folder
+        src="./images/Jaden.jpg" // make sure this file exists in your public/images folder
         alt="Jaden Davis"
         className="w-40 h-40 rounded-full mb-6 object-cover border-4 border-gray-300 dark:border-gray-700 shadow-md"
       />

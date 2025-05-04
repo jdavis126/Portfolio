@@ -21,10 +21,10 @@ export default function Navbar() {
     <nav className="p-4 bg-gray-800 text-white flex items-center">
       <div className="flex gap-4 flex-1">
         <Link to="/">Home</Link>
-        <Link to="/contact">Contact</Link>
         <Link to="/Travel">Travel</Link>
-        <Link to="/Interests">Interests</Link>
         <Link to="/Pets">Pets</Link>
+        <Link to="/Interests">Interests</Link>
+        <Link to="/contact">Contact</Link>
       </div>
       <button
         onClick={() => setDarkMode(!darkMode)}
