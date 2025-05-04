@@ -31,7 +31,7 @@ const travelSpots = [
   },
   {
     location: "Zion National Park, Utah",
-    images: ["./images/zion1.jpg", "./images/zion2.jpg"],
+    images: ["./images/zion1.jpg", "./images/zion2.jpg", "./images/zion3.jpg"],
     description: "Gaze up at massive sandstone cliffs of cream, pink, and red that soar into a brilliant blue sky.",
     position: [37.2982, -113.0263],
   },

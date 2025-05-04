@@ -5,15 +5,14 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
 const lizzyImages = [
-  { src: "./images/lizzy1.jpg", alt: "Lizzy at the park" },
-  { src: "./images/lizzy2.jpg", alt: "Lizzy playing fetch" },
-  { src: "./images/lizzy3.jpg", alt: "Lizzy napping" },
+  { src: "./images/lizzy1.jpg"},
+  { src: "./images/lizzy2.jpg"},
+  { src: "./images/lizzy4.jpeg"},
 ];
 
 const maggieImages = [
-  { src: "./images/maggie1.jpg", alt: "Maggie at the beach" },
-  { src: "./images/maggie2.jpg", alt: "Maggie in the snow" },
-  { src: "./images/maggie3.jpg", alt: "Maggie being goofy" },
+  { src: "./images/maggie1.jpg"},
+  { src: "./images/maggie2.jpg"},
 ];
 
 export default function Pets() {
